@@ -1,12 +1,12 @@
 async function saveContact() {
-    const firstName = "Eliezer Glenn";
-    const lastName = "Castelo";
-    const organization = "Innovation and Technology Solutions";
-    const jobTitle = "Information Technology Professional";
-    const phone = "+639926594206";
-    const email = "casteloeliezerglenn@gmail.com";
+    const firstName = "Donald Vincent Adrian";
+    const lastName = "Castro";
+    const organization = "TO Edit";
+    const jobTitle = "TO Edit";
+    const phone = "+639175 123 456";
+    const email = "castroadrian63375@gmail.com";
     const location = "Guimba, Nueva Ecija, Philippines";
-    const website = "https://elie.com";
+    const website = "https://example.com";
 
     const vCard = `BEGIN:VCARD
 VERSION:3.0
@@ -22,7 +22,7 @@ END:VCARD`;
 
     const file = new File(
         [vCard],
-        "Eliezer_Glenn_Castelo.vcf",
+        "Donald_Vincent_Adrian_Castro.vcf",
         {
             type: "text/vcard"
         }
@@ -36,8 +36,8 @@ END:VCARD`;
         try {
             await navigator.share({
                 files: [file],
-                title: "Eliezer Glenn Castelo",
-                text: "Save Eliezer Glenn Castelo as a contact"
+                title: "Donald Vincent Adrian Castro",
+                text: "Save Donald Vincent Adrian Castro as a contact"
             });
 
             return;
@@ -59,7 +59,7 @@ END:VCARD`;
     const link = document.createElement("a");
 
     link.href = url;
-    link.download = "Eliezer_Glenn_Castelo.vcf";
+    link.download = "Donald_Vincent_Adrian_Castro.vcf";
 
     document.body.appendChild(link);
     link.click();
@@ -72,8 +72,8 @@ END:VCARD`;
 
 async function shareCard() {
     const shareData = {
-        title: "Eliezer Glenn Castelo - Digital Card",
-        text: "Connect with Eliezer Glenn Castelo",
+        title: "Donald Vincent Adrian Castro - Digital Card",
+        text: "Connect with Donald Vincent Adrian Castro",
         url: window.location.href
     };
 
