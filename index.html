@@ -1,0 +1,539 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Digital NFC Contact Card">
+
+    <meta name="theme-color"
+          content="#111111">
+
+    <title>Donald Vincent Adrian V Castro | Digital Card</title>
+
+
+    <!-- Font Awesome Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+
+    <!-- CSS -->
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- ==================================================
+         DIGITAL CARD
+    =================================================== -->
+
+    <main class="card">
+
+
+        <!-- ==================================================
+             COVER
+        =================================================== -->
+
+        <div class="cover">
+
+            <div class="cover-circle circle-one"></div>
+
+            <div class="cover-circle circle-two"></div>
+
+        </div>
+
+
+
+        <!-- ==================================================
+             PROFILE CONTENT
+        =================================================== -->
+
+        <section class="profile">
+
+
+            <!-- PROFILE PHOTO -->
+
+            <div class="profile-image-container">
+
+                <img
+                    src="profile.jpg"
+                    alt="Donald Vincent Adrian V Castro"
+                    class="profile-image"
+                >
+
+            </div>
+
+
+
+            <!-- NAME -->
+
+            <h1>
+                Donald Vincent Adrian V Castro
+            </h1>
+
+
+            <!-- PROFESSION -->
+
+            <p class="profession">
+                Top note : Curiosity
+Dry down : Obsession
+            </p>
+
+
+            <!-- BIO -->
+
+            <p class="bio">
+
+               First you see the bottles. Then you smell the story
+
+            </p>
+
+
+
+            <!-- ==================================================
+                 QUICK ACTIONS
+            =================================================== -->
+
+            <div class="quick-actions">
+
+
+                <!-- CALL -->
+
+                <a
+                    href="tel:+639762014327"
+                    class="quick-button primary"
+                >
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <span>
+                        Call
+                    </span>
+
+                </a>
+
+
+
+                <!-- EMAIL -->
+
+                <a
+                    href="mailto:castroadrian63375@gmail.com"
+                    class="quick-button"
+                >
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <span>
+                        Email
+                    </span>
+
+                </a>
+
+
+
+                <!-- SHARE -->
+
+                <button
+                    onclick="shareCard()"
+                    class="quick-button"
+                >
+
+                    <i class="fa-solid fa-share-nodes"></i>
+
+                    <span>
+                        Share
+                    </span>
+
+                </button>
+
+
+            </div>
+
+
+
+            <!-- ==================================================
+                 CONTACT INFORMATION
+            =================================================== -->
+
+            <div class="contact-section">
+
+
+                <!-- PHONE -->
+
+                <a
+                    href="tel:+639762014327"
+                    class="contact-item"
+                >
+
+                    <div class="contact-icon">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                    </div>
+
+
+                    <div class="contact-text">
+
+                        <span>
+                            Phone
+                        </span>
+
+                        <strong>
+                            +63 976 201 4327
+                        </strong>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- EMAIL -->
+
+                <a
+                    href="mailto:castroadrian63375@gmail.com"
+                    class="contact-item"
+                >
+
+                    <div class="contact-icon">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                    </div>
+
+
+                    <div class="contact-text">
+
+                        <span>
+                            Email
+                        </span>
+
+                        <strong>
+                            castroadrian63375@gmail.com
+                        </strong>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- WHATSAPP -->
+                <a
+                    href="https://wa.me/639762014327?text=Hello%20Donald%2C%20I%20found%20your%20digital%20business%20card."
+                    class="contact-item"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <div class="contact-icon whatsapp-icon">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+
+                    <div class="contact-text">
+                        <span>WhatsApp</span>
+                        <strong>+63 976 201 4327</strong>
+                    </div>
+                </a>
+
+
+                <!-- LOCATION -->
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                    </div>
+
+
+                    <div class="contact-text">
+
+                        <span>
+                            Location
+                        </span>
+
+                        <strong>
+                            Guimba, Nueva Ecija, Philippines
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- ==================================================
+                 SOCIAL MEDIA
+            =================================================== -->
+
+            <section class="social-section">
+
+
+                <h2>
+                    Connect with me
+                </h2>
+
+
+
+                <div class="social-grid">
+
+
+                    <!-- FACEBOOK -->
+
+                    <a
+                        href="https://www.facebook.com/dvac.photography"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="social-button"
+                    >
+
+                        <div class="social-icon facebook">
+
+                            <i class="fa-brands fa-facebook-f"></i>
+
+                        </div>
+
+                        <span>
+                            Facebook
+                        </span>
+
+                        <i class="fa-solid fa-arrow-up-right-from-square external"></i>
+
+                    </a>
+
+
+
+                    <!-- INSTAGRAM -->
+
+                    <a
+                        href="https://www.instagram.com/adriyawnn?exln=dXEzd3I0MTJwNGFm&utm_source=qr&fbclid=IwY2xjawU1T6JleHRuA2FlbQIxMABwZG9mBWJyaWQRMWx5dHdXWE5lWUU3d2JUNDJzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEe5wOcF2dBi8UMktJqUgDdBtNBuNkvUc0RpbX0SyPmUIYMDf0d56dYTZMengI_aem__lpT4qss4kbLFBr1Kpn1QA"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="social-button"
+                    >
+
+                        <div class="social-icon instagram">
+
+                            <i class="fa-brands fa-instagram"></i>
+
+                        </div>
+
+                        <span>
+                            Instagram
+                        </span>
+
+                        <i class="fa-solid fa-arrow-up-right-from-square external"></i>
+
+                    </a>
+
+
+
+                    <!-- TIKTOK -->
+
+                    <a
+                        href=""
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="social-button"
+                    >
+
+                        <div class="social-icon tiktok">
+
+                            <i class="fa-brands fa-tiktok"></i>
+
+                        </div>
+
+                        <span>
+                            TikTok
+                        </span>
+
+                        <i class="fa-solid fa-arrow-up-right-from-square external"></i>
+
+                    </a>
+
+
+
+                    <!-- LINKEDIN -->
+
+                    <a
+                        href=""
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="social-button"
+                    >
+
+                        <div class="social-icon linkedin">
+
+                            <i class="fa-brands fa-linkedin-in"></i>
+
+                        </div>
+
+                        <span>
+                            LinkedIn
+                        </span>
+
+                        <i class="fa-solid fa-arrow-up-right-from-square external"></i>
+
+                    </a>
+
+
+
+                    
+
+
+
+                    <!-- YOUTUBE -->
+
+                    <a
+                        href=""
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="social-button"
+                    >
+
+                        <div class="social-icon youtube">
+
+                            <i class="fa-brands fa-youtube"></i>
+
+                        </div>
+
+                        <span>
+                            YouTube
+                        </span>
+
+                        <i class="fa-solid fa-arrow-up-right-from-square external"></i>
+
+                    </a>
+
+
+                </div>
+
+            </section>
+
+
+
+            <!-- ==================================================
+                 WEBSITE
+            =================================================== -->
+
+            <a
+                href="https://yourwebsite.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="website-button"
+            >
+
+                <div class="website-left">
+
+
+                    <div class="website-icon">
+
+                        <i class="fa-solid fa-globe"></i>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            Website
+                        </span>
+
+                        <strong>
+                            Visit my website
+                        </strong>
+
+                    </div>
+
+
+                </div>
+
+
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+            </a>
+
+
+
+            <!-- ==================================================
+                 SAVE CONTACT
+            =================================================== -->
+
+            <button
+                onclick="saveContact()"
+                class="save-button"
+            >
+
+                <i class="fa-solid fa-address-card"></i>
+
+                Save Contact
+
+            </button>
+
+
+
+            <!-- ==================================================
+                 FOOTER
+            =================================================== -->
+
+            <footer>
+
+                <p>
+                    Digital Contact Card
+                </p>
+
+                <small>
+                    Tap • Connect • Save
+                </small>
+
+            </footer>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- ==================================================
+         NFC MESSAGE
+    =================================================== -->
+
+    <div class="nfc-message">
+
+        <i class="fa-solid fa-wifi"></i>
+
+        Tap NFC card to open this profile
+
+    </div>
+
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
+```
